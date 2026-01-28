@@ -12,4 +12,4 @@ RUN pip install gunicorn
 
 COPY nginx/nginx.conf /etc/nginx/conf.d/
 
-COPY . /app/
+COPY airbnb_app /app/
